@@ -3,6 +3,9 @@
 <head>
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <style>
+.container {
+	max-width:500px;
+}
 textarea {
     resize: vertical;
 }
@@ -32,15 +35,14 @@ footer {
 <body>
 	<div class="container">
 		<div class="row">
+			<div class="col-md-12" style="text-align:right;">
+				<p class="text-muted"><strong>*</strong> These fields are required.</p>
+			</div>
+		</div>
+		<div class="row">
 			<div class="form-container">
 				<form id="contact-form" method="post" action="contact-page.php" role="form">
 					<div class="controls">
-						<div class="row">
-							<div class="col-md-12" style="text-align:right;">
-								<p class="text-muted"><strong>*</strong> These fields are required.</p>
-							</div>
-						</div>
-						
 						<div class="messages"></div>
 
 						<div class="row">
