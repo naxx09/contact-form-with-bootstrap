@@ -1,15 +1,15 @@
 <?php
 
-$from = 'Personal Website Contact Form<example@company.xyz>'; // replace "example@company.xyz" to your email
+$from = 'Contact Page<example@company.xyz>'; // replace "example@company.xyz" to your email
 $sendTo = 'example@company.xyz'; // replace "example@company.xyz" to your email
-$subject = 'New message from contact form';
+$subject = 'New message from contact page';
 $fields = array('name' => 'Name', 'surname' => 'Surname', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Message'); // array variable name => Text to appear in the email
 $okMessage = 'Thank you, I will get back to you soon!'; // thank you alert
 $errorMessage = 'There was an error while submitting the form. Please try again later'; // error alert
 
 try
 {
-    $emailText = "You have new message from contact form\n=============================\n";
+    $emailText = "You have new message from contact page\n=============================\n";
 
     foreach ($_POST as $key => $value) {
 
