@@ -1,7 +1,6 @@
 # contact-page-with-bootstrap
-A simple contact page built with bootstrap, including 
-phone number and email address validation, 
+A simple contact page built with bootstrap, including phone number and email address validation and php message sender.
 
+Preview:
 
-preview:
 https://naxx09.github.io/contact-page-with-bootstrap/contact-page-with-Bootstrap.html
