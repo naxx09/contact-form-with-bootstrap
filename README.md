@@ -7,4 +7,4 @@ https://naxx09.github.io/contact-page-with-bootstrap/contact-page-with-Bootstrap
 If you does not plan to use bootstrap, check out this one, which is only built with HTML+CSS. Link: https://github.com/naxx09/contact-page
 
 Preview:
-https://naxx09.github.io/Contact-page/contact-page.html
+https://naxx09.github.io/contact-page/contact-page.html
